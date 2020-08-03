@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-08-02T10:52:28.544-05:00
-  initializedAtString: 2020-08-02T10:28:48.840-05:00
+  lastUpdatedAtString: 2020-08-03T08:42:46.144-05:00
+  initializedAtString: 2020-08-03T08:42:46.144-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/JackHaehl/WarmongerGame.git
