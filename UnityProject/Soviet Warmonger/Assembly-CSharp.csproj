@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Animations\LogoController\DisableSprite.cs" />
+    <Compile Include="Assets\ButtonController.cs" />
     <Compile Include="Assets\Scripts\CheckForCanvas.cs" />
     <Compile Include="Assets\Scripts\GameBehaviour.cs" />
     <Compile Include="Assets\Scripts\Option.cs" />
