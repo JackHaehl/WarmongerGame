@@ -1596,8 +1596,9 @@ RectTransform:
   - {fileID: 400398337}
   - {fileID: 783267171}
   - {fileID: 1722425386}
-  - {fileID: 867599973}
   - {fileID: 829483970}
+  - {fileID: 1989950455}
+  - {fileID: 1592821806}
   - {fileID: 815433777}
   - {fileID: 1587467329}
   - {fileID: 775300888}
@@ -1801,7 +1802,7 @@ RectTransform:
   m_LocalScale: {x: 0.0099, y: 0.0099, z: 0.0099}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1950,7 +1951,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2091,7 +2092,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2763,7 +2764,6 @@ MonoBehaviour:
   stats1: {fileID: 1699322623}
   stats2: {fileID: 988277584}
   stats3: {fileID: 1248704507}
-  stats4: {fileID: 0}
 --- !u!4 &814277054
 Transform:
   m_ObjectHideFlags: 0
@@ -2810,7 +2810,7 @@ RectTransform:
   m_LocalScale: {x: 0.0099, y: 0.0099, z: 0.0043699997}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2915,7 +2915,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3032,102 +3032,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836611092}
-  m_CullTransparentMesh: 0
---- !u!1 &867599972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 867599973}
-  - component: {fileID: 867599976}
-  - component: {fileID: 867599975}
-  - component: {fileID: 867599974}
-  m_Layer: 5
-  m_Name: Ticker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &867599973
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867599972}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9092.24}
-  m_LocalScale: {x: 101.024895, y: 101.024895, z: 101.024895}
-  m_Children: []
-  m_Father: {fileID: 629043758}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.022518521}
-  m_AnchorMax: {x: 1, y: 0.022518521}
-  m_AnchoredPosition: {x: 85.07483, y: -0.619751}
-  m_SizeDelta: {x: -1902.6787, y: 0.6928997}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &867599974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867599972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8efe06d1a4ad84aa8e4742480ce792, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tickerItemPrefab: {fileID: 3559573344737528334, guid: 8d4e28b4a7c7a884fa6013dc5aee427f,
-    type: 3}
-  itemDuration: 6
-  fillerItems:
-  - this is a line
-  - test
-  - hello jake
-  - test
-  - test
---- !u!114 &867599975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867599972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &867599976
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867599972}
   m_CullTransparentMesh: 0
 --- !u!1 &963349905
 GameObject:
@@ -3420,7 +3324,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4606,7 +4510,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4764,7 +4668,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5276,7 +5180,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5335,6 +5239,80 @@ MonoBehaviour:
   tickerItemPrefab: {fileID: 0}
   itemDuration: 3
   fillerItems: []
+--- !u!1 &1592821805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592821806}
+  - component: {fileID: 1592821808}
+  - component: {fileID: 1592821807}
+  m_Layer: 0
+  m_Name: NewsLogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1592821806
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592821805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629043758}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -695.6, y: -480.61996}
+  m_SizeDelta: {x: 200, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1592821807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592821805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bd86040de8cea9849bb8328779460dfe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1592821808
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592821805}
+  m_CullTransparentMesh: 0
 --- !u!1 &1592842227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5461,7 +5439,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 629043758}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6132,7 +6110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1886638989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6304,6 +6282,161 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958502435}
   m_CullTransparentMesh: 0
+--- !u!1 &1989950454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1989950455}
+  - component: {fileID: 1989950457}
+  - component: {fileID: 1989950456}
+  - component: {fileID: 1989950458}
+  m_Layer: 0
+  m_Name: Ticker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1989950455
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989950454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629043758}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -0.23449707, y: 35.380005}
+  m_SizeDelta: {x: 0, y: 53.37262}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1989950456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989950454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1989950457
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989950454}
+  m_CullTransparentMesh: 0
+--- !u!114 &1989950458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989950454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8efe06d1a4ad84aa8e4742480ce792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tickerItemPrefab: {fileID: 1859430200190076532, guid: 8d4e28b4a7c7a884fa6013dc5aee427f,
+    type: 3}
+  itemDuration: 750
+  fillerItems:
+  - Tune in to SNN
+  - National parks see lowest attendance yet
+  - Global warming theory proposed, suggest America's on thin ice
+  - Mexico sees massive immigration spike, considers building a wall
+  - Cinemas now producing television shows, shakes industry
+  - Woman in Illinois gives birth to 7, experts baffled
+  - Insiders predict phasing out of vinyl records
+  - Home video entertainment computers see delay in shipments
+  - Crackpot theory suggests war was started by Soviets
+  - Rebels spotted in northern city of Scarif, OK
+  - Untitled space opera halts production
+  - Mexico sees massive immigration spike, considers building a wall
+  - Former President goes into hiding, wherabouts unknown
+  - Firefighter saves cat from tree, says "this happens more than you think"
+  - Smoking declared a deadly weapon
+  - Florida man drowns , presumed dead by killer
+  - Ball with stick voted as number one children's toy
+  - NYC undergoes reformation of public streets, public still avoiding streets
+  - Woman chased down Chicago alley running from "her past"
+  - Public survey asks strange questions, may be linked to TV game show
+  - Teenagers declare to be the smartest generation, proceeding to burn parent's
+    houses
+  - Major airline set to sell entire fleet, negotiations will take 6 months
+  - Disco declared to be dead, not coming back, not even as a joke
+  - Street bum swaps lives with royal prince, presumed missing
+  - Officer slain by fellow cop, bystanders don't know if they should call the police
+  - 'Rookie basketball all-star interview: "Hey now, I''m an all star. Got my game
+    on. Let''s play."'
+  - Stock market crashes third time this week
+  - Firestrong Software company goes bankrupt, sells off assets in garage sale
+  - Man eats bat, second handedly destroys city
+  - Man in clown makeup threatens man in bat costume, police call to arms
+  - Billionaire buys NASA, moves to second home on Jupiter
+  - Blind woman looks at eclipse, gains ability to see
+  - Los Angeles bus at high speed, man with hostages and bomb onboard
+  - Tourists stuck in Florida, "It's not so bad once you get used to it"
+  - Rabbit forgets to take left turn at Albuqurque
+  - Pacific Rebel blockade expected to persist
+  - 'Neo confederacy hiring artists for new flag: no experience required'
+  - Pacifc Rebellion uniform fashion show sells out over weekend
+  - Monster appears from child's closet, puts on Comedy Show
+  - Philadelphia bar gains notoriety, hijinks ensue
+  - Missing child found on giant milk carton
+  - Finger found in bowl of chili confirmed to be a chicken finger and a toenail
+  - A Rabbi and a Priest walked into a bar, bartender instigates fight asking "What
+    is this, some kind of joke?"
+  - Term "meta" now being applied to stupid jokes in western media
+  - Scientist transforms into pickle, wins award for best comedy act
+  - Island-based dinosaur theme park idea scrapped due to safety concern
+  - Elevator free falls 44 stories, theme park giant purchases rights to faulty elevator
+    patent
+  - Travelling circus clowns aide Neo confederacy war effort, "No more funny business"
+  - Zoo monkeys found jumping on bed, one reported to be in critical condition
+  - Debate on regional dialects for hamburgers begins in Albany today
+  - North Haverbrook monorail deemed a massive failure
+  - Neo confederacy seals entire town under massive dome
+  - Frog spotted riding unicycle, experts baffled
+  - President commends CDC for advice to "wash hands"
+  - Italian plumber steps on turtle, praised for his creativity
+  - Man in sunglasses gets band back together, now on most wanted list
+  - Seattle becomes first city to replace roads with railroads, pollution rates plummet
+  - Ohio apologizes for ruining spaghetti, vows to improve something else
+  - Giant glass pitcher breaks through brick wall, defying federal law
+  - '"D" from Holllywood sign reported stolen, Hollywoo police have no leads'
 --- !u!1 &2084478679
 GameObject:
   m_ObjectHideFlags: 0

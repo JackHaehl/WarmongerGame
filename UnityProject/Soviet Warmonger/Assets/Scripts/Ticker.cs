@@ -6,8 +6,8 @@ using UnityEngine;
 public class Ticker : MonoBehaviour {
 
     public TickerItem tickerItemPrefab;
-    [Range(1f, 10f)]
-    public float itemDuration = 3.0f;
+    [Range(100f, 1000f)]
+    public float itemDuration = 100f;
     public string[] fillerItems;
 
     float width;
@@ -25,9 +25,7 @@ public class Ticker : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        UnityEngine.Debug.Log(currentItem.GetXPosition);
-        UnityEngine.Debug.Log(currentItem.GetXPosition - currentItem.GetWidth);
-        if (currentItem.GetXPosition <= currentItem.GetXPosition - currentItem.GetWidth)
+        if (currentItem.GetXPosition <= -currentItem.GetWidth)
         {
             AddTickerItem(fillerItems[Random.Range(0, fillerItems.Length)]);
         }

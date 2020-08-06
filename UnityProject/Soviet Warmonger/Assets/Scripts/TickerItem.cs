@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TickerItem : MonoBehaviour {
+public class TickerItem : MonoBehaviour
+{
 
     float tickerWidth;
     float pixelsPerSecond;
@@ -11,11 +12,11 @@ public class TickerItem : MonoBehaviour {
 
     public float GetXPosition { get { return rt.anchoredPosition.x; } }
     public float GetWidth { get { return rt.rect.width; } }
-    
+
     public void Initialize(float tickerWidth, float pixelsPerSecond, string message)
     {
-        this.tickerWidth = tickerWidth;
-        this.pixelsPerSecond = pixelsPerSecond;
+        GetComponent<TickerItem>().tickerWidth = tickerWidth;
+        GetComponent<TickerItem>().pixelsPerSecond = pixelsPerSecond;
         rt = GetComponent<RectTransform>();
         GetComponent<Text>().text = message + "  |  ";
     }
@@ -28,5 +29,6 @@ public class TickerItem : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+
     }
 }
