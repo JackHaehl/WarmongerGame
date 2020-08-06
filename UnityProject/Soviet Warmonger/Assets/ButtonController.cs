@@ -19,7 +19,7 @@ public class ButtonController : MonoBehaviour
 
     public void loadLevel()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene");
     }
 
     public void returnToMenu()

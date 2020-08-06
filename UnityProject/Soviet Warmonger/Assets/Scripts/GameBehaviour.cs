@@ -18,7 +18,11 @@ public class GameBehaviour : MonoBehaviour
     public GameObject scenarioText;
     public GameObject choiceText1;
     public GameObject choiceText2;
-    public GameObject stats;
+    public GameObject stats1;
+    public GameObject stats2;
+    public GameObject stats3;
+    public GameObject stats4;
+
     string territoryString;
     int months = 0;
     bool loss = false;
@@ -72,16 +76,13 @@ public class GameBehaviour : MonoBehaviour
         territoriesText.GetComponent<TextMeshProUGUI>().text = territoryString;
         if (!loss)
         {
-            stats.GetComponent<TextMeshProUGUI>().text = (
-    "The stalemate timer is " + warTide + " of 5 \n" +
-    "Your Wealth: " + wealth + "\n" +
-    "Current Month: " + months + "\n"
-
-            );
+            stats1.GetComponent<TextMeshProUGUI>().text = (warTide + "/5 \n" );
+            stats2.GetComponent<TextMeshProUGUI>().text = (wealth + "\n" );
+            stats3.GetComponent<TextMeshProUGUI>().text = (months + "\n");
         }
         else
         {
-            stats.GetComponent<TextMeshProUGUI>().text += "YOU HAVE LOST, RIP";
+            scenarioText.GetComponent<TextMeshProUGUI>().text = ("The war has ended. Mission has been compromised.");
         }
     }
 

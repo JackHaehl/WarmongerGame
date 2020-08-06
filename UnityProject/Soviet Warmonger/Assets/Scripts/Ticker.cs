@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Ticker : MonoBehaviour {
@@ -24,7 +25,9 @@ public class Ticker : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (currentItem.GetXPosition <= -currentItem.GetWidth)
+        UnityEngine.Debug.Log(currentItem.GetXPosition);
+        UnityEngine.Debug.Log(currentItem.GetXPosition - currentItem.GetWidth);
+        if (currentItem.GetXPosition <= currentItem.GetXPosition - currentItem.GetWidth)
         {
             AddTickerItem(fillerItems[Random.Range(0, fillerItems.Length)]);
         }
