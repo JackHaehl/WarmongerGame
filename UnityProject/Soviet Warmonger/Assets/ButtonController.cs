@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
-    public void loadCredits()
-    {
-        SceneManager.LoadScene("CreditsMenu");
-    }
 
     public void closeGame()
     {

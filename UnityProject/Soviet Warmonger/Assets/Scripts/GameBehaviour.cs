@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameBehaviour : MonoBehaviour
 {
@@ -21,7 +22,6 @@ public class GameBehaviour : MonoBehaviour
     public GameObject stats1;
     public GameObject stats2;
     public GameObject stats3;
-    public GameObject stats4;
 
     string territoryString;
     int months = 0;
@@ -83,6 +83,7 @@ public class GameBehaviour : MonoBehaviour
         else
         {
             scenarioText.GetComponent<TextMeshProUGUI>().text = ("The war has ended. Mission has been compromised.");
+            SceneManager.LoadScene("Defeat");
         }
     }
 

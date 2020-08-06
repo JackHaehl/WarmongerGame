@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 58931
+  controlID: 32542
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 58955
+  controlID: 32516
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58956
+  controlID: 32517
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,10 +395,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 140}
-      m_SelectedIDs: 963c0100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 4a3b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 760dffff6c0effff0012ffff2c21fffff22dffff502fffff9a4bffffdc5affffe469fffff669ffff1c6afffff66fffffec70ffff8879ffffec7bffff287cffff267dffff5e7dffff6a83ffff8283ffffaa83ffffe883ffffb284ffffb491ffff0cdeffff40390000b4390000e63900003a3a0000806a0000d66a0000fc6a0000d2750000f87500003a870000ae8700000a93000052940000c8940000c29700000a99000080990000a4ae0000eaae000010af000046af00006caf0000b8c000002ec10000d0c10000a6f000001cf100005eff00000a00010028000100f81101006e120100101301001e16010070160100f4160100181701006a1701000c180100
+      m_ExpandedIDs: 5c66ffff0469ffff3a6dfffff06effff6c73ffff2a75fffff876ffff7a82ffffd883ffff2a90fffff6a3ffffb2a4ffffcca9ffff42aaffffc6afffff1eb0ffff84b4ffffb6b4ffff3ac6ffffc2c6ffffd8cbffffe0cbfffff0cbffff0cccffff1cccffff72cdffff40cfffff1e530000e6590000765a0000845a0000f06000000a6100001461000042630000f46300002a64000034640000e466000096670000c4670000cc670000d66700004a7000005c700000d2700000067e0000187e00003c7e0000967e0000487f0000548c00005e8c0000608d0000f68d0000b08e0000dc900000e69000000e970000a49700005e980000b09a0000c29a0000369b0000549b00000aa7000016a7000028a700009ca70000baa70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.9006089, y: 0.7802559, z: -2053.5522}
+    m_Target: {x: -0.68867195, y: -9.059865, z: -3003.3523}
     speed: 2
-    m_Value: {x: -0.9006089, y: 0.7802559, z: -2053.5522}
+    m_Value: {x: -0.68867195, y: -9.059865, z: -3003.3523}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -510,9 +510,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.276985
+    m_Target: 8.99095
     speed: 2
-    m_Value: 6.276985
+    m_Value: 8.99095
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -558,9 +558,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 442
+    x: 475
     y: 73
-    width: 848
+    width: 910
     height: 553
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
@@ -602,11 +602,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\mtrys\Documents\Projects\Cold War Game\WarmongerGame\UnityProject\Soviet
     Warmonger
@@ -614,9 +614,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 743b0000
-    m_LastClickedID: 15220
-    m_ExpandedIDs: 00000000683b00006a3b00006c3b0000723b00007a3b0000c26f0000c46f0000cc6f0000d46f000000ca9a3b
+    m_SelectedIDs: 92470000
+    m_LastClickedID: 18322
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000be47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000683b00006a3b00006c3b0000723b00007a3b0000c26f0000c46f0000cc6f0000d46f000000ca9a3b
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000be47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000363400006a2d00003e2d0000722d0000742d0000762d0000942d000088420000f63d00006a3b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 71692
+  m_LastSelectedObjectID: 42866
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -792,7 +792,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 540
+  m_LastVerticalScrollValue: 0
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -826,6 +826,7 @@ MonoBehaviour:
     - {fileID: -66896805813428285, guid: 29577283e369f8a4680c60e1ecfc138d, type: 2}
     - {fileID: -4081362167971895142, guid: 50d5c3a7f9b717d49a852406d0884592, type: 2}
     - {fileID: 7779751476290769425, guid: e1ce66c121b94d147a644f9bafe105f1, type: 2}
+    - {fileID: 2951377398877780738, guid: 6ea85da421f602f4db2b356c251ea2cd, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.4936842
       e01: 0
@@ -907,11 +908,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.37714955
+      e01: 0
+      e02: 0
+      e03: 67.15567
+      e10: 0
+      e11: 0.37714955
+      e12: 0
+      e13: 113.67846
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: e1ce66c121b94d147a644f9bafe105f1,
+  m_AnimatorController: {fileID: 9100000, guid: 29577283e369f8a4680c60e1ecfc138d,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7779751476290769425, guid: e1ce66c121b94d147a644f9bafe105f1,
+  - m_Target: {fileID: -66896805813428285, guid: 29577283e369f8a4680c60e1ecfc138d,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
