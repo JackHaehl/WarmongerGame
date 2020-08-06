@@ -10,11 +10,13 @@ public class TickerItem : MonoBehaviour
     float pixelsPerSecond;
     RectTransform rt;
 
+    
     public float GetXPosition { get { return rt.anchoredPosition.x; } }
     public float GetWidth { get { return rt.rect.width; } }
 
     public void Initialize(float tickerWidth, float pixelsPerSecond, string message)
     {
+        
         GetComponent<TickerItem>().tickerWidth = tickerWidth;
         GetComponent<TickerItem>().pixelsPerSecond = pixelsPerSecond;
         rt = GetComponent<RectTransform>();

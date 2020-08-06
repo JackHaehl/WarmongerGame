@@ -5160,7 +5160,6 @@ GameObject:
   - component: {fileID: 1587467329}
   - component: {fileID: 1587467331}
   - component: {fileID: 1587467330}
-  - component: {fileID: 1587467332}
   m_Layer: 0
   m_Name: Borders
   m_TagString: Untagged
@@ -5224,21 +5223,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587467328}
   m_CullTransparentMesh: 0
---- !u!114 &1587467332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587467328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8efe06d1a4ad84aa8e4742480ce792, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tickerItemPrefab: {fileID: 0}
-  itemDuration: 3
-  fillerItems: []
 --- !u!1 &1592821805
 GameObject:
   m_ObjectHideFlags: 0
@@ -6110,7 +6094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1886638989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6371,9 +6355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tickerItemPrefab: {fileID: 1859430200190076532, guid: 8d4e28b4a7c7a884fa6013dc5aee427f,
     type: 3}
-  itemDuration: 750
+  itemDuration: 711
   fillerItems:
-  - Tune in to SNN
+  - 
   - National parks see lowest attendance yet
   - Global warming theory proposed, suggest America's on thin ice
   - Mexico sees massive immigration spike, considers building a wall
