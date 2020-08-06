@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Defeat.unity
     guid: 1fee62a995b8b304280f36b03102bd99
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 90626ec3e8163b24eaef016073f91377
+  - enabled: 1
+    path: Assets/Scenes/HighScores.unity
+    guid: e5c63f162ed4bed4dbc6c330b90ebe08
   m_configObjects: {}

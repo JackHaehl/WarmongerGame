@@ -22,4 +22,12 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void toTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+    public void toHighScore()
+    {
+        SceneManager.LoadScene("HighScores");
+    }
 }

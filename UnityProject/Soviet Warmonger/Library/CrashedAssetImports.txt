@@ -1,1 +1,0 @@
-Assets/Sprites/defeatscreen/animation/frame_00128.png
