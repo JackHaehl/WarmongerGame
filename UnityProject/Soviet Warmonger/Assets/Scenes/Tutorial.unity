@@ -1852,8 +1852,8 @@ MonoBehaviour:
       will take you back to the main menu while restart will restart the current
       simulation.
     - You'll notice my picture on the top left of the screen. I will give you different
-      scenarios that will affect the war in which you will have to decide how to
-      handle these scenarios.
+      scenarios that will affect the war in which you will have to decide what to
+      do.
     - You will be given two options, choose carefully! You may make your decision
       using the buttons on the bottom right.
     - Pressing the button on the top right will take us to the Map screen. Let's
@@ -2421,7 +2421,7 @@ MonoBehaviour:
       don't change within a month, the timer will go up. If no one is fighting for
       5 months, then the war will reach a stalemate.
     - You cannot let that happen!
-    - Each scenarios will have different effects on the territories, bombs may drop
+    - Each scenario will have different effects on the territories, bombs may drop
       turning the territory green and lowering its health. Natural disasters can
       strike at any moment!
     - The results of your decisions are indicated by symbols that will appear over

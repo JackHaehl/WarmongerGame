@@ -6094,7 +6094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1886638989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6420,7 +6420,7 @@ MonoBehaviour:
   - Seattle becomes first city to replace roads with railroads, pollution rates plummet
   - Ohio apologizes for ruining spaghetti, vows to improve something else
   - Giant glass pitcher breaks through brick wall, defying federal law
-  - '"D" from Holllywood sign reported stolen, Hollywoo police have no leads'
+  - '"D" from Hollywood sign reported stolen, Hollywoo police have no leads'
 --- !u!1 &2084478679
 GameObject:
   m_ObjectHideFlags: 0
