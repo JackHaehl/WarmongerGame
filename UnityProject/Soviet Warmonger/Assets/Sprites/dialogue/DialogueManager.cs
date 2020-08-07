@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip clip;
+    public float volume = 0.75f;
     public float delay;
     public Text dialogueText;
 
@@ -49,6 +52,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             yield return new WaitForSeconds(0.05f);
+            audioSource.PlayOneShot(audioSource.clip, volume);
             dialogueText.text += letter;
             yield return null;
         }
