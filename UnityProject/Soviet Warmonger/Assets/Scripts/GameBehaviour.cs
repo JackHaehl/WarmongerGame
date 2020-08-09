@@ -22,6 +22,7 @@ public class GameBehaviour : MonoBehaviour
     public GameObject stats1;
     public GameObject stats2;
     public GameObject stats3;
+    Territory lastTerritory;
 
     string territoryString;
     int months = 0;
@@ -35,6 +36,8 @@ public class GameBehaviour : MonoBehaviour
         {
             territories[i].activeTeam = teams[0];
             territories[i].evaluateControl();
+            territories[i].lerpColor(1);
+            territories[i].lerpColor(1);
         }
 
         NewScenario();
@@ -44,7 +47,11 @@ public class GameBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // NewScenario();
+        // NewScenario();
+        if(lastTerritory != null)
+        {
+            lastTerritory.lerpColor(Time.deltaTime);
+        }
     }
 
     void NewScenario()
@@ -52,25 +59,34 @@ public class GameBehaviour : MonoBehaviour
         checkLoss();
         months++;
         newScenario = Random.Range(0, scenarios.Count);
+        if(currentScenario != null)
+        {
+            lastTerritory = currentScenario.currentTerritory;
+        }
+
         currentScenario = scenarios[newScenario];
         newTeam = Random.Range(0, team.Count);
         currentScenario.setupScenario(team[newTeam],team[Mathf.Abs(newTeam-1)],territories[Random.Range(0,territories.Count)]);
-        Debug.Log(currentScenario.displayText());
 
-        for(int i = 0; i < currentScenario.choices.Count; i++)
-        {
-            Debug.Log(currentScenario.choices[i].displayText());
-        }
-        Debug.Log("----------------------------------------------------");
+
 
         territoriesText.GetComponent<TextMeshProUGUI>().text = "";
-        scenarioText.GetComponent<TextMeshProUGUI>().text = currentScenario.displayText();
-        choiceText1.GetComponent<TextMeshProUGUI>().text = currentScenario.choices[0].displayText();
-        choiceText2.GetComponent<TextMeshProUGUI>().text = currentScenario.choices[1].displayText();
+        if(currentScenario.currentTerritory.health > 0)
+        {
+            scenarioText.GetComponent<TextMeshProUGUI>().text = currentScenario.displayText();
+            choiceText1.GetComponent<TextMeshProUGUI>().text = currentScenario.choices[0].displayText();
+            choiceText2.GetComponent<TextMeshProUGUI>().text = currentScenario.choices[1].displayText();
+        }
+        else
+        {
+            scenarioText.GetComponent<TextMeshProUGUI>().text = currentScenario.displayText();
+            choiceText1.GetComponent<TextMeshProUGUI>().text = "Your poor choices have destroyed this territory. It needs time to recover.";
+            choiceText2.GetComponent<TextMeshProUGUI>().text = "Your choice doesn't matter.";
+        }
+
         territoryString = "";
         for(int i = 0; i < territories.Count; i++)
         {
-           // territories[i].evaluateControl();
             territoryString += territories[i].displayText();
         }
         territoriesText.GetComponent<TextMeshProUGUI>().text = territoryString;
@@ -127,12 +143,11 @@ public class GameBehaviour : MonoBehaviour
     {
         if (currentScenario.choices[0] != null && currentScenario.choices[0].choose())
         {
-            Debug.Log("Go fer it!!!!!!!11");
             NewScenario();
         }
         else
         {
-            Debug.Log("YOU AVEN'T GOT ET???????????");
+
         }
 
     }
@@ -141,16 +156,14 @@ public class GameBehaviour : MonoBehaviour
     {
         if (currentScenario.choices[1] != null && currentScenario.choices[1].choose())
         {
-            Debug.Log("Go fer it!!!!!!!11");
+
             NewScenario();
         }
         else
-        {
-            Debug.Log("YOU AVEN'T GOT ET???????????");
-        }
+        {        }
     }
 
-    public void press3()
+/*    public void press3()
     {
         if (currentScenario.choices[2] != null && currentScenario.choices[2].choose())
         {
@@ -174,5 +187,5 @@ public class GameBehaviour : MonoBehaviour
         {
             Debug.Log("YOU AVEN'T GOT ET???????????");
         }
-    }
+    }*/
 }

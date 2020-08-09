@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - IconHappy
+  - IconSad
+  - IconGun
+  - IconRipGun
+  - IconBiohazard
   layers:
   - Default
   - TransparentFX

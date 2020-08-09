@@ -14,7 +14,7 @@ public class Scenario
     public int territory;
     private Team currentTeam;
     private Team inactiveTeam;
-    private Territory currentTerritory;
+    public Territory currentTerritory;
     //public Territory territory;
     public List<Option> choices;
 

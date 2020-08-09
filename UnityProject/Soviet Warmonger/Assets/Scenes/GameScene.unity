@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 172003224}
   - component: {fileID: 172003223}
   m_Layer: 0
-  m_Name: Capitol
+  m_Name: Metro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1076803528}
   m_Father: {fileID: 629043758}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -876,7 +877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.94600004}
   m_AnchorMax: {x: 0.5, y: 0.94600004}
-  m_AnchoredPosition: {x: 13, y: -3.6400146}
+  m_AnchoredPosition: {x: 13, y: -3.6396484}
   m_SizeDelta: {x: 352, y: 68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &400398338
@@ -1278,6 +1279,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &588762963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588762964}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &588762964
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588762963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1531676416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 318, y: -215}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &593165567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,7 +1483,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1248767165}
   m_Father: {fileID: 629043758}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1507,7 +1544,7 @@ GameObject:
   - component: {fileID: 629043755}
   m_Layer: 0
   m_Name: MapCanvas
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1846,6 +1883,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652476259}
   m_CullTransparentMesh: 0
+--- !u!1 &714429656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714429657}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &714429657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714429656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 836611093}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -115, y: 176}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &736325514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,7 +1930,7 @@ GameObject:
   - component: {fileID: 736325517}
   - component: {fileID: 736325516}
   m_Layer: 0
-  m_Name: Capithal
+  m_Name: Capitol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1946,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 812030375}
   m_Father: {fileID: 629043758}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2236,7 +2309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.82981247, y: 0.94600004}
   m_AnchorMax: {x: 0.82981247, y: 0.94600004}
-  m_AnchoredPosition: {x: -62.900024, y: -3.6400146}
+  m_AnchoredPosition: {x: -62.90039, y: -3.6396484}
   m_SizeDelta: {x: 450, y: 68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783267172
@@ -2276,6 +2349,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783267170}
   m_CullTransparentMesh: 0
+--- !u!1 &808836809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808836810}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &808836810
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808836809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1760475200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 277, y: 145}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &812030374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 812030375}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &812030375
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812030374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 736325515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 412, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &814277052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,6 +2454,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Sell arms to the militarized citizens.
       socialActive: 0
@@ -2337,6 +2496,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Produce propaganda in favor of [TEAM].
       socialActive: 100
@@ -2363,6 +2538,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Sell the dysfunctional bomb to [TEAM]
       socialActive: 0
@@ -2388,6 +2579,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Send relief supplies to [TERRITORY].
       socialActive: 30
@@ -2414,6 +2621,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Produce propaganda promising a reward to whomever stops them.
       socialActive: 0
@@ -2439,6 +2662,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Use propaganda to turn the people against this alliance.
       socialActive: -80
@@ -2464,6 +2703,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Take advantage of the opportunity to sell food at inflated prices.
       socialActive: -50
@@ -2489,6 +2744,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Allow [INACTIVETEAM] to take the arms unopposed.
       socialActive: 0
@@ -2515,6 +2786,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Send military support to quell the disgruntled mob during the blackout.
       socialActive: 0
@@ -2541,6 +2828,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Establish a passage through the blockade, charging a toll to move supplies.
       socialActive: 0
@@ -2566,6 +2869,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Arm the extremists.
       socialActive: 0
@@ -2591,6 +2910,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Assassinate the prime minister to end the alliance.
       socialActive: 0
@@ -2616,6 +2951,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Turn all printers to maximum production of propaganda in favor of [TEAM]
       socialActive: 1000
@@ -2642,6 +2993,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Let the citizens drink the forbidden juice.
       socialActive: 1200
@@ -2668,6 +3035,22 @@ MonoBehaviour:
     visibleText: 
     team: 
     territory: 0
+    currentTerritory:
+      image: {fileID: 0}
+      center: {fileID: 0}
+      name: 
+      socialP: 0
+      socialC: 0
+      militaryP: 0
+      militaryC: 0
+      health: 1
+      activeTeam:
+        name: 
+      iconHappy: {fileID: 0}
+      iconSad: {fileID: 0}
+      iconGun: {fileID: 0}
+      iconRipGun: {fileID: 0}
+      iconBiohazard: {fileID: 0}
     choices:
     - text: Send in KGB agents to investigate the threats.
       socialActive: 0
@@ -2693,7 +3076,9 @@ MonoBehaviour:
   - name: The Pacific Rebellion
   - name: The Neo Confederacy
   territories:
-  - name: The Midwest
+  - image: {fileID: 836611092}
+    center: {fileID: 714429656}
+    name: The Midwest
     socialP: 1
     socialC: 100
     militaryP: 0
@@ -2701,7 +3086,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The West
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 1958502435}
+    center: {fileID: 922664924}
+    name: The West
     socialP: 1
     socialC: 0
     militaryP: 0
@@ -2709,7 +3106,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The Pacific
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 602666124}
+    center: {fileID: 1248767164}
+    name: The Pacific
     socialP: 1
     socialC: 0
     militaryP: 0
@@ -2717,7 +3126,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The Southwest
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 1875580509}
+    center: {fileID: 1463425243}
+    name: The Southwest
     socialP: 2
     socialC: 0
     militaryP: 0
@@ -2725,7 +3146,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The South
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 1531676415}
+    center: {fileID: 588762963}
+    name: The South
     socialP: 3
     socialC: 2
     militaryP: 2
@@ -2733,7 +3166,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The Capitol
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 736325514}
+    center: {fileID: 812030374}
+    name: The Capitol
     socialP: 4
     socialC: 100
     militaryP: 2
@@ -2741,7 +3186,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The Metro
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 172003221}
+    center: {fileID: 1076803527}
+    name: The Metro
     socialP: 5
     socialC: 100
     militaryP: 1
@@ -2749,7 +3206,19 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
-  - name: The Lakes
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
+  - image: {fileID: 1760475199}
+    center: {fileID: 808836809}
+    name: The Lakes
     socialP: 8
     socialC: 5
     militaryP: 10
@@ -2757,6 +3226,16 @@ MonoBehaviour:
     health: 1
     activeTeam:
       name: 
+    iconHappy: {fileID: 4224849416218937187, guid: 7e44c6f1ae60f3347a8ef927450d3d98,
+      type: 3}
+    iconSad: {fileID: 9010205371034238634, guid: 70280ad7ccd395042b49905565894bac,
+      type: 3}
+    iconGun: {fileID: 1184560111724893191, guid: 2c5211d3fa6f5a543ab16750803229cc,
+      type: 3}
+    iconRipGun: {fileID: 1004958540620909632, guid: 4dce8f4fb19048648a4af0a189bb32a6,
+      type: 3}
+    iconBiohazard: {fileID: 2846290404956809185, guid: cd142fa27112a2d4fa490dd21292dac5,
+      type: 3}
   territoriesText: {fileID: 648443881}
   scenarioText: {fileID: 1160300423}
   choiceText1: {fileID: 1571234460}
@@ -2987,7 +3466,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 714429657}
   m_Father: {fileID: 629043758}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3033,6 +3513,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836611092}
   m_CullTransparentMesh: 0
+--- !u!1 &922664924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922664925}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &922664925
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922664924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1958502436}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -649, y: 50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &963349905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,7 +4048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.18060417, y: 0.94600004}
   m_AnchorMax: {x: 0.18060417, y: 0.94600004}
-  m_AnchoredPosition: {x: -0.6199951, y: -3.6400146}
+  m_AnchoredPosition: {x: -0.6201172, y: -3.6396484}
   m_SizeDelta: {x: 352, y: 68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032384195
@@ -3573,6 +4088,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032384193}
   m_CullTransparentMesh: 0
+--- !u!1 &1076803527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076803528}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1076803528
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076803527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 172003222}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 625, y: 229}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1105820470
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,6 +5187,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248704507}
   m_CullTransparentMesh: 0
+--- !u!1 &1248767164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248767165}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1248767165
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248767164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 602666125}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -591, y: 309}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1363516416
 GameObject:
   m_ObjectHideFlags: 0
@@ -4971,6 +5556,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1463425243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463425244}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1463425244
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463425243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1875580510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -297, y: -144}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1531676415
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,7 +5619,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 588762964}
   m_Father: {fileID: 629043758}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5863,7 +6484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.05455556}
   m_AnchorMax: {x: 0.5, y: 0.05455556}
-  m_AnchoredPosition: {x: 1.9, y: 0.46002197}
+  m_AnchoredPosition: {x: 1.9, y: 0.45996094}
   m_SizeDelta: {x: 1595, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1722425387
@@ -6009,7 +6630,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 808836810}
   m_Father: {fileID: 629043758}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6083,7 +6705,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1463425244}
   m_Father: {fileID: 629043758}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6347,7 +6970,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 922664925}
   m_Father: {fileID: 629043758}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6428,7 +7052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.23449707, y: 35.380005}
+  m_AnchoredPosition: {x: -0.234375, y: 35.379883}
   m_SizeDelta: {x: 0, y: 53.37262}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1989950456

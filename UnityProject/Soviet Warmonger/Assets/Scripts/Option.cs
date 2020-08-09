@@ -40,12 +40,13 @@ public class Option
     {
         if (currentTerritory.health <= 0)
         {
-            return false;
+            return true;
         }
         else
         {
             if (currentTeam.name == "The Pacific Rebellion")
             {
+
                 currentTerritory.socialP += socialActive;
                 currentTerritory.socialC += socialOther;
                 currentTerritory.militaryP += militaryActive;
@@ -71,6 +72,8 @@ public class Option
             {
                 currentTerritory.evaluateControl();
             }
+            currentTerritory.renderEffects(socialActive, militaryActive, healthChange);
+            currentTerritory.renderEffects(socialOther, militaryOther, 0);
             return true;
         }
     }
